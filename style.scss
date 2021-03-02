@@ -12,13 +12,14 @@ button:focus {
 .area {
     background-color: #F0F7FC;
     border-radius   : 20px;
+    padding        : 55px;
 
     header {
         display        : flex;
         justify-content: space-between;
         align-items    : center;
-        padding        : 55px;
-
+        margin-bottom: 55px;
+        
         .logo {
             img {
                 height: 50px;
