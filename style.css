@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+.area {
+  background-color: #F0F7FC;
+  border-radius: 20px;
+}
+
+.area header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 55px;
+}
+
+.area header .logo img {
+  height: 50px;
+}
+
+.area header .menu {
+  font-size: 24px;
+}
+
+.area header .menu ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.area header .action-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
+}
+
+.area header .action-btns button {
+  font-size: 28px;
+  border-radius: 10px;
+  padding: 8px 10px;
+  border: 2px solid #0D6AAF;
+}
+
+.area header .action-btns .solid {
+  background-color: #0D6AAF;
+  color: white;
+}
+
+.area .text-area * {
+  text-align: center;
+}
+
+.area .text-area h1 {
+  font-size: 50px;
+  line-height: 70px;
+  margin: 0;
+}
+
+.area .text-area p {
+  font-size: 27px;
+  padding: 0;
+}
+
+.area .text-area button {
+  font-size: 28px;
+  border-radius: 10px;
+  padding: 8px 10px;
+  border: 2px solid #0D6AAF;
+  background-color: #0D6AAF;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
