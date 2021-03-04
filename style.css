@@ -300,4 +300,12 @@ button:hover {
   left: -60px;
   border-right: 30px solid white;
 }
+
+.area .whats-app-messenger .cards-mobile-area .mobile {
+  padding: 0 35px;
+}
+
+.area .whats-app-messenger .cards-mobile-area .mobile .frame img {
+  width: 200px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -272,6 +272,15 @@ button:hover {
                     }
                 }
             }
+
+            .mobile {
+                padding: 0 35px;
+                .frame {
+                    img {
+                        width: 200px;
+                    }
+                }
+            }
         }
     }
 }
