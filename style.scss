@@ -31,10 +31,14 @@ button:hover {
     border-bottom: 30px solid transparent;
 }
 
-.area {
-    background-color: #f0f7fc;
+@mixin area-basic($bg-color) {
+    background-color: $bg-color;
     @include radius(20px);
     padding: 55px 55px 25px;
+}
+
+.area {
+    @include area-basic(#f0f7fc);
 
     header {
         font-weight: 400;
