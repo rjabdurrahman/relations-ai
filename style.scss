@@ -1,8 +1,8 @@
-$primary-color: #0D6AAF;
+$primary-color: #0d6aaf;
 
 body {
-    margin     : 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
     max-width: 1300px;
     margin: auto;
 }
@@ -12,16 +12,17 @@ button:focus {
 }
 
 .area {
-    background-color: #F0F7FC;
-    border-radius   : 20px;
-    padding        : 55px;
+    background-color: #f0f7fc;
+    border-radius: 20px;
+    padding: 55px;
 
     header {
-        display        : flex;
+        font-weight: 400;
+        display: flex;
         justify-content: space-between;
-        align-items    : center;
+        align-items: center;
         margin-bottom: 55px;
-        
+
         .logo {
             img {
                 height: 50px;
@@ -32,28 +33,28 @@ button:focus {
             font-size: 24px;
 
             ul {
-                margin         : 0;
-                padding        : 0;
-                display        : flex;
+                margin: 0;
+                padding: 0;
+                display: flex;
                 list-style-type: none;
-                gap            : 30px;
+                gap: 30px;
             }
         }
 
         .action-btns {
             display: flex;
-            gap    : 35px;
+            gap: 35px;
 
             button {
-                font-size    : 28px;
+                font-size: 28px;
                 border-radius: 10px;
-                padding      : 8px 10px;
-                border       : 2px solid $primary-color;
+                padding: 8px 10px;
+                border: 2px solid $primary-color;
             }
 
             .solid {
                 background-color: $primary-color;
-                color           : white;
+                color: white;
             }
         }
     }
@@ -64,23 +65,23 @@ button:focus {
         }
 
         h1 {
-            font-size  : 50px;
+            font-size: 50px;
             line-height: 70px;
-            margin     : 0;
+            margin: 0;
         }
 
         p {
             font-size: 27px;
-            padding  : 0;
+            padding: 0;
         }
 
         button {
-            font-size       : 28px;
-            border-radius   : 10px;
-            padding         : 8px 10px;
-            border          : 2px solid $primary-color;
+            font-size: 28px;
+            border-radius: 10px;
+            padding: 8px 10px;
+            border: 2px solid $primary-color;
             background-color: $primary-color;
-            color           : white;
+            color: white;
         }
     }
 
@@ -90,15 +91,33 @@ button:focus {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 30px;
+        padding: 20px 30px;
         margin: 40px;
 
         h1 {
             font-size: 27px;
         }
 
-        img {
-            width: 200px;
+        > div {
+            img {
+                width: 200px;
+                &:first-child {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    display: block;
+                }
+            }
+            &:hover {
+                img {
+                    &:first-child {
+                        display: block;
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
         }
     }
 }
