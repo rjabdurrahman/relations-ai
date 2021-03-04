@@ -150,20 +150,20 @@ button:hover {
   gap: 15px;
 }
 
-.area .whats-app-messenger .switch {
+.area .whats-app-messenger h1 .switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
 }
 
-.area .whats-app-messenger .switch input {
+.area .whats-app-messenger h1 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-.area .whats-app-messenger .slider {
+.area .whats-app-messenger h1 .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -176,7 +176,7 @@ button:hover {
   border-radius: 34px;
 }
 
-.area .whats-app-messenger .slider:before {
+.area .whats-app-messenger h1 .slider:before {
   position: absolute;
   content: "";
   height: 26px;
@@ -189,16 +189,16 @@ button:hover {
   border-radius: 50%;
 }
 
-.area .whats-app-messenger input:checked + .slider {
+.area .whats-app-messenger h1 input:checked + .slider {
   background-color: #25d366;
 }
 
-.area .whats-app-messenger input:checked + .slider:before {
+.area .whats-app-messenger h1 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   transform: translateX(26px);
 }
 
-.area .whats-app-messenger input:focus + .slider {
+.area .whats-app-messenger h1 input:focus + .slider {
   -webkit-box-shadow: 0 0 1px #25d366;
           box-shadow: 0 0 1px #25d366;
 }
