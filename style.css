@@ -202,4 +202,40 @@ button:hover {
   -webkit-box-shadow: 0 0 1px #25d366;
           box-shadow: 0 0 1px #25d366;
 }
+
+.area .whats-app-messenger .cards-mobile-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .icon {
+  height: 130px;
+  width: 130px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .card {
+  width: 300px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .card h3,
+.area .whats-app-messenger .cards-mobile-area .cards .card p {
+  margin: 0;
+  padding: 0;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .card h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .card p {
+  line-height: 28px;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */

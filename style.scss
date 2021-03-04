@@ -15,9 +15,13 @@ button:hover {
     cursor: pointer;
 }
 
+@mixin radius($value) {
+    border-radius: $value;
+}
+
 .area {
     background-color: #f0f7fc;
-    border-radius: 20px;
+    @include radius(20px);
     padding: 55px;
 
     header {
@@ -91,7 +95,7 @@ button:hover {
 
     .brand-logos {
         background-color: white;
-        border-radius: 30px;
+        @include radius(30px);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -185,6 +189,41 @@ button:hover {
             input:focus {
                 & + .slider {
                     box-shadow: 0 0 1px #25d366;
+                }
+            }
+        }
+
+        .cards-mobile-area {
+            display: flex;
+
+            .cards {
+                .icon {
+                    height: 130px;
+                    width: 130px;
+                    background-color: green;
+                    @include radius(50%);
+                }
+
+                .card {
+                    width: 300px;
+                    padding: 30px;
+                    background-color: white;
+                    @include radius(20px);
+                    h3,
+                    p {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    h3 {
+                        font-size: 24px;
+                        margin-bottom: 25px;
+                    }
+
+                    p {
+                        line-height: 28px;
+                        font-size: 20px;
+                    }
                 }
             }
         }
