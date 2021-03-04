@@ -19,6 +19,18 @@ button:hover {
     border-radius: $value;
 }
 
+.arrow {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
 .area {
     background-color: #f0f7fc;
     @include radius(20px);
@@ -243,16 +255,17 @@ button:hover {
                             &-right {
                                 position: relative;
                                 &::after {
-                                    content: "";
-                                    position: absolute;
+                                    @extend .arrow;
                                     right: -60px;
-                                    box-sizing: border-box;
-                                    top: 50%;
-                                    transform: translateY(-50%);
                                     border-left: 30px solid white;
-                                    border-right: 30px solid transparent;
-                                    border-top: 30px solid transparent;
-                                    border-bottom: 30px solid transparent;
+                                }
+                            }
+                            &-left {
+                                position: relative;
+                                &::after {
+                                    @extend .arrow;
+                                    left: -60px;
+                                    border-right: 30px solid white;
                                 }
                             }
                         }
