@@ -34,7 +34,7 @@ button:hover {
 .area {
     background-color: #f0f7fc;
     @include radius(20px);
-    padding: 55px;
+    padding: 55px 55px 25px;
 
     header {
         font-weight: 400;
