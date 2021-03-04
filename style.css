@@ -213,7 +213,7 @@ button:hover {
   margin-top: 20px;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,41 +223,41 @@ button:hover {
           align-items: center;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .icon {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .icon {
   height: 100px;
   width: 100px;
   background-color: green;
   border-radius: 50%;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .card {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .card {
   width: 250px;
   padding: 20px;
   background-color: white;
   border-radius: 20px;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .card h3,
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .card p {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .card h3,
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .card p {
   margin: 0;
   padding: 0;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .card h3 {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .card h3 {
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .card p {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .card p {
   line-height: 25px;
   font-size: 18px;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .card.arrow-right {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-right {
   position: relative;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .single-card .card.arrow-right::after {
+.area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-right::after {
   content: "";
   position: absolute;
   right: -60px;
