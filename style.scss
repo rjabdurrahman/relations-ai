@@ -31,14 +31,26 @@ button:hover {
     border-bottom: 30px solid transparent;
 }
 
-@mixin area-basic($bg-color) {
-    background-color: $bg-color;
-    @include radius(20px);
-    padding: 55px 55px 25px;
-}
-
 .area {
-    @include area-basic(#f0f7fc);
+    @include radius(20px);
+    padding: 40px 50px 25px;
+    margin-bottom: 50px;
+    &:nth-of-type(1) {
+        background-color: #f0f7fc;
+    }
+
+    &:nth-of-type(2) {
+        background-color: #f1f1f1;
+    }
+
+    h1.title {
+        font-size: 47px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     header {
         font-weight: 400;
@@ -147,12 +159,6 @@ button:hover {
 
     .whats-app-messenger {
         h1 {
-            font-size: 47px;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             gap: 15px;
             .switch {
                 position: relative;

@@ -28,9 +28,32 @@ button:hover {
 }
 
 .area {
-  background-color: #f0f7fc;
   border-radius: 20px;
-  padding: 55px 55px 25px;
+  padding: 40px 50px 25px;
+  margin-bottom: 50px;
+}
+
+.area:nth-of-type(1) {
+  background-color: #f0f7fc;
+}
+
+.area:nth-of-type(2) {
+  background-color: #f1f1f1;
+}
+
+.area h1.title {
+  font-size: 47px;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .area header {
@@ -149,18 +172,6 @@ button:hover {
 }
 
 .area .whats-app-messenger h1 {
-  font-size: 47px;
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   gap: 15px;
 }
 
