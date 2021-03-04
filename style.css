@@ -9,6 +9,10 @@ button:focus {
   outline: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .area {
   background-color: #f0f7fc;
   border-radius: 20px;
@@ -128,5 +132,74 @@ button:focus {
 
 .area .brand-logos > div:hover img:nth-child(2) {
   display: none;
+}
+
+.area .whats-app-messenger h1 {
+  font-size: 47px;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+.area .whats-app-messenger .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.area .whats-app-messenger .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.area .whats-app-messenger .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.area .whats-app-messenger .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.area .whats-app-messenger input:checked + .slider {
+  background-color: #25d366;
+}
+
+.area .whats-app-messenger input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.area .whats-app-messenger input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #25d366;
+          box-shadow: 0 0 1px #25d366;
 }
 /*# sourceMappingURL=style.css.map */
