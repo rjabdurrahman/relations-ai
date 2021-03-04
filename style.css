@@ -209,33 +209,66 @@ button:hover {
   display: flex;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .icon {
-  height: 130px;
-  width: 130px;
+.area .whats-app-messenger .cards-mobile-area .cards {
+  margin-top: 20px;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .single-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .icon {
+  height: 100px;
+  width: 100px;
   background-color: green;
   border-radius: 50%;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .card {
-  width: 300px;
-  padding: 30px;
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .card {
+  width: 250px;
+  padding: 20px;
   background-color: white;
   border-radius: 20px;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .card h3,
-.area .whats-app-messenger .cards-mobile-area .cards .card p {
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .card h3,
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .card p {
   margin: 0;
   padding: 0;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .card h3 {
-  font-size: 24px;
-  margin-bottom: 25px;
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
-.area .whats-app-messenger .cards-mobile-area .cards .card p {
-  line-height: 28px;
-  font-size: 20px;
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .card p {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .card.arrow-right {
+  position: relative;
+}
+
+.area .whats-app-messenger .cards-mobile-area .cards .single-card .card.arrow-right::after {
+  content: "";
+  position: absolute;
+  right: -60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-left: 30px solid white;
+  border-right: 30px solid transparent;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
 }
 /*# sourceMappingURL=style.css.map */
