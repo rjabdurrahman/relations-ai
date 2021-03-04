@@ -205,12 +205,20 @@ button:hover {
                     .icon {
                         height: 100px;
                         width: 100px;
-                        background-color: green;
+                        background: url("img/4.png");
+                        background-size: cover;
                         @include radius(50%);
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            height: 80px;
+                            width: 80px;
+                        }
                     }
 
                     .card {
-                        width: 250px;
+                        width: 280px;
                         padding: 20px;
                         background-color: white;
                         @include radius(20px);
