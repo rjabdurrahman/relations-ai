@@ -33,11 +33,11 @@ button:hover {
   margin-bottom: 50px;
 }
 
-.area:nth-of-type(1) {
+.area:nth-of-type(odd) {
   background-color: #f0f7fc;
 }
 
-.area:nth-of-type(2) {
+.area:nth-of-type(even) {
   background-color: #f1f1f1;
 }
 
