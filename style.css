@@ -13,7 +13,7 @@ button:hover {
   cursor: pointer;
 }
 
-.arrow, .area .cards-mobile-area .cards .message-card .card.arrow-right::after, .area .cards-mobile-area .cards .message-card .card.arrow-left::after {
+.arrow, .area .cards-area .cards .message-card .card.arrow-right::after, .area .cards-area .cards .message-card .card.arrow-left::after {
   content: "";
   position: absolute;
   -webkit-box-sizing: border-box;
@@ -171,17 +171,17 @@ button:hover {
   display: none;
 }
 
-.area .cards-mobile-area {
+.area .cards-area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.area .cards-mobile-area .cards {
+.area .cards-area .cards {
   margin-top: 20px;
 }
 
-.area .cards-mobile-area .cards .message-card {
+.area .cards-area .cards .message-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,7 +192,7 @@ button:hover {
   margin-bottom: 50px;
 }
 
-.area .cards-mobile-area .cards .message-card .icon {
+.area .cards-area .cards .message-card .icon {
   height: 100px;
   width: 100px;
   background: url("img/4.png");
@@ -209,48 +209,48 @@ button:hover {
           align-items: center;
 }
 
-.area .cards-mobile-area .cards .message-card .icon img {
+.area .cards-area .cards .message-card .icon img {
   height: 80px;
   width: 80px;
 }
 
-.area .cards-mobile-area .cards .message-card .card {
+.area .cards-area .cards .message-card .card {
   width: 280px;
   padding: 20px;
   background-color: white;
   border-radius: 20px;
 }
 
-.area .cards-mobile-area .cards .message-card .card h3,
-.area .cards-mobile-area .cards .message-card .card p {
+.area .cards-area .cards .message-card .card h3,
+.area .cards-area .cards .message-card .card p {
   margin: 0;
   padding: 0;
 }
 
-.area .cards-mobile-area .cards .message-card .card h3 {
+.area .cards-area .cards .message-card .card h3 {
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-.area .cards-mobile-area .cards .message-card .card p {
+.area .cards-area .cards .message-card .card p {
   line-height: 25px;
   font-size: 18px;
 }
 
-.area .cards-mobile-area .cards .message-card .card.arrow-right {
+.area .cards-area .cards .message-card .card.arrow-right {
   position: relative;
 }
 
-.area .cards-mobile-area .cards .message-card .card.arrow-right::after {
+.area .cards-area .cards .message-card .card.arrow-right::after {
   right: -60px;
   border-left: 30px solid white;
 }
 
-.area .cards-mobile-area .cards .message-card .card.arrow-left {
+.area .cards-area .cards .message-card .card.arrow-left {
   position: relative;
 }
 
-.area .cards-mobile-area .cards .message-card .card.arrow-left::after {
+.area .cards-area .cards .message-card .card.arrow-left::after {
   left: -60px;
   border-right: 30px solid white;
 }
