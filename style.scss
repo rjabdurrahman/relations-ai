@@ -156,6 +156,75 @@ button:hover {
             }
         }
     }
+    
+    .cards-mobile-area {
+        display: flex;
+
+        .cards {
+            margin-top: 20px;
+            .message-card {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: 50px;
+                .icon {
+                    height: 100px;
+                    width: 100px;
+                    background: url("img/4.png");
+                    background-size: cover;
+                    @include radius(50%);
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        height: 80px;
+                        width: 80px;
+                    }
+                }
+
+                .card {
+                    width: 280px;
+                    padding: 20px;
+                    background-color: white;
+                    @include radius(20px);
+                    h3,
+                    p {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    h3 {
+                        font-size: 22px;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        line-height: 25px;
+                        font-size: 18px;
+                    }
+
+                    &.arrow {
+                        &-right {
+                            position: relative;
+                            &::after {
+                                @extend .arrow;
+                                right: -60px;
+                                border-left: 30px solid white;
+                            }
+                        }
+                        &-left {
+                            position: relative;
+                            &::after {
+                                @extend .arrow;
+                                left: -60px;
+                                border-right: 30px solid white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
     .whats-app-messenger {
         h1 {
@@ -199,7 +268,7 @@ button:hover {
 
             input:checked {
                 & + .slider {
-                    background-color: #0080F7;
+                    background-color: #0080f7;
                     &:before {
                         -webkit-transform: translateX(26px);
                         -ms-transform: translateX(26px);
@@ -215,80 +284,23 @@ button:hover {
             }
         }
 
-        .cards-mobile-area {
-            display: flex;
-
-            .cards {
-                margin-top: 20px;
-                .message-card {
-                    display: flex;
-                    gap: 20px;
-                    align-items: center;
-                    margin-bottom: 50px;
-                    .icon {
-                        height: 100px;
-                        width: 100px;
-                        background: url("img/4.png");
-                        background-size: cover;
-                        @include radius(50%);
-                        display: inline-flex;
-                        justify-content: center;
-                        align-items: center;
-                        img {
-                            height: 80px;
-                            width: 80px;
-                        }
-                    }
-
-                    .card {
-                        width: 280px;
-                        padding: 20px;
-                        background-color: white;
-                        @include radius(20px);
-                        h3,
-                        p {
-                            margin: 0;
-                            padding: 0;
-                        }
-
-                        h3 {
-                            font-size: 22px;
-                            margin-bottom: 15px;
-                        }
-
-                        p {
-                            line-height: 25px;
-                            font-size: 18px;
-                        }
-
-                        &.arrow {
-                            &-right {
-                                position: relative;
-                                &::after {
-                                    @extend .arrow;
-                                    right: -60px;
-                                    border-left: 30px solid white;
-                                }
-                            }
-                            &-left {
-                                position: relative;
-                                &::after {
-                                    @extend .arrow;
-                                    left: -60px;
-                                    border-right: 30px solid white;
-                                }
-                            }
-                        }
-                    }
+        .mobile {
+            padding: 0 40px;
+            .frame {
+                img {
+                    width: 200px;
                 }
             }
+        }
+    }
 
-            .mobile {
-                padding: 0 40px;
-                .frame {
-                    img {
-                        width: 200px;
-                    }
+
+    &.dashboard {
+        .mobile {
+            padding: 0 40px;
+            .frame {
+                img {
+                    width: 600px;
                 }
             }
         }

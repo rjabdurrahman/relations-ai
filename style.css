@@ -13,7 +13,7 @@ button:hover {
   cursor: pointer;
 }
 
-.arrow, .area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-right::after, .area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-left::after {
+.arrow, .area .cards-mobile-area .cards .message-card .card.arrow-right::after, .area .cards-mobile-area .cards .message-card .card.arrow-left::after {
   content: "";
   position: absolute;
   -webkit-box-sizing: border-box;
@@ -171,6 +171,90 @@ button:hover {
   display: none;
 }
 
+.area .cards-mobile-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.area .cards-mobile-area .cards {
+  margin-top: 20px;
+}
+
+.area .cards-mobile-area .cards .message-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.area .cards-mobile-area .cards .message-card .icon {
+  height: 100px;
+  width: 100px;
+  background: url("img/4.png");
+  background-size: cover;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.area .cards-mobile-area .cards .message-card .icon img {
+  height: 80px;
+  width: 80px;
+}
+
+.area .cards-mobile-area .cards .message-card .card {
+  width: 280px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.area .cards-mobile-area .cards .message-card .card h3,
+.area .cards-mobile-area .cards .message-card .card p {
+  margin: 0;
+  padding: 0;
+}
+
+.area .cards-mobile-area .cards .message-card .card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.area .cards-mobile-area .cards .message-card .card p {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.area .cards-mobile-area .cards .message-card .card.arrow-right {
+  position: relative;
+}
+
+.area .cards-mobile-area .cards .message-card .card.arrow-right::after {
+  right: -60px;
+  border-left: 30px solid white;
+}
+
+.area .cards-mobile-area .cards .message-card .card.arrow-left {
+  position: relative;
+}
+
+.area .cards-mobile-area .cards .message-card .card.arrow-left::after {
+  left: -60px;
+  border-right: 30px solid white;
+}
+
 .area .whats-app-messenger h1 {
   gap: 15px;
 }
@@ -215,7 +299,7 @@ button:hover {
 }
 
 .area .whats-app-messenger h1 input:checked + .slider {
-  background-color: #0080F7;
+  background-color: #0080f7;
 }
 
 .area .whats-app-messenger h1 input:checked + .slider:before {
@@ -228,95 +312,19 @@ button:hover {
           box-shadow: 0 0 1px #25d366;
 }
 
-.area .whats-app-messenger .cards-mobile-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards {
-  margin-top: 20px;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 50px;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .icon {
-  height: 100px;
-  width: 100px;
-  background: url("img/4.png");
-  background-size: cover;
-  border-radius: 50%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .icon img {
-  height: 80px;
-  width: 80px;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card {
-  width: 280px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 20px;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card h3,
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card p {
-  margin: 0;
-  padding: 0;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card h3 {
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card p {
-  line-height: 25px;
-  font-size: 18px;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-right {
-  position: relative;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-right::after {
-  right: -60px;
-  border-left: 30px solid white;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-left {
-  position: relative;
-}
-
-.area .whats-app-messenger .cards-mobile-area .cards .message-card .card.arrow-left::after {
-  left: -60px;
-  border-right: 30px solid white;
-}
-
-.area .whats-app-messenger .cards-mobile-area .mobile {
+.area .whats-app-messenger .mobile {
   padding: 0 40px;
 }
 
-.area .whats-app-messenger .cards-mobile-area .mobile .frame img {
+.area .whats-app-messenger .mobile .frame img {
   width: 200px;
+}
+
+.area.dashboard .mobile {
+  padding: 0 40px;
+}
+
+.area.dashboard .mobile .frame img {
+  width: 600px;
 }
 /*# sourceMappingURL=style.css.map */
