@@ -195,7 +195,7 @@ button:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #25d366;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 34px;
@@ -215,7 +215,7 @@ button:hover {
 }
 
 .area .whats-app-messenger h1 input:checked + .slider {
-  background-color: #25d366;
+  background-color: #0080F7;
 }
 
 .area .whats-app-messenger h1 input:checked + .slider:before {
