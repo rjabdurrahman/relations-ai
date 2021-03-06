@@ -320,11 +320,17 @@ button:hover {
   width: 200px;
 }
 
+.area.dashboard .cards, .area.automation .cards {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .area.dashboard .mobile {
   padding: 0 40px;
 }
 
 .area.dashboard .mobile .frame img {
-  width: 600px;
+  width: 650px;
 }
 /*# sourceMappingURL=style.css.map */

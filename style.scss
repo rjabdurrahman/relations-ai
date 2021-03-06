@@ -294,12 +294,18 @@ button:hover {
         }
     }
 
+    &.dashboard, &.automation {
+        .cards {
+            flex: 1;
+        }
+    }
+
     &.dashboard {
         .mobile {
             padding: 0 40px;
             .frame {
                 img {
-                    width: 600px;
+                    width: 650px;
                 }
             }
         }
