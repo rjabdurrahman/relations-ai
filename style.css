@@ -320,7 +320,7 @@ button:hover {
   width: 200px;
 }
 
-.area.dashboard .cards, .area.automation .cards {
+.area.dashboard .cards, .area.automation .cards, .area.tailor .cards {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
