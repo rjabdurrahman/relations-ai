@@ -141,6 +141,8 @@ button:hover {
     }
     .cards-area {
         display: flex;
+        justify-content: center;
+        align-items: center;
         .cards {
             margin-top: 20px;
             .message-card {
@@ -158,12 +160,10 @@ button:hover {
                     justify-content: center;
                     align-items: center;
                     img {
-                        height: 80px;
-                        width: 80px;
+                        width: 70px;
                     }
                 }
                 .card {
-                    width: 280px;
                     padding: 20px;
                     background-color: white;
                     @include radius(20px);
@@ -203,6 +203,7 @@ button:hover {
         }
     }
     .whats-app-messenger {
+        margin-top: 80px;
         h1 {
             gap: 15px;
             .switch {
@@ -256,11 +257,14 @@ button:hover {
                 }
             }
         }
+        .card {
+            width: 280px;
+        }
         .mobile {
-            padding: 0 40px;
+            padding: 20px 40px 0;
             .frame {
                 img {
-                    width: 200px;
+                    width: 250px;
                 }
             }
         }
@@ -273,6 +277,9 @@ button:hover {
         }
     }
     &.dashboard {
+        .card {
+            width: 400px;
+        }
         .mobile {
             padding: 0 40px;
             .frame {
