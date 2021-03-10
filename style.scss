@@ -1,9 +1,7 @@
 $primary-color: #0d6aaf;
-
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    max-width: 1300px;
     margin: auto;
 }
 
@@ -38,11 +36,9 @@ button:hover {
     &:nth-of-type(odd) {
         background-color: #f0f7fc;
     }
-
     &:nth-of-type(even) {
         background-color: #f1f1f1;
     }
-
     h1.title {
         font-size: 47px;
         margin: 0;
@@ -51,23 +47,19 @@ button:hover {
         align-items: center;
         justify-content: center;
     }
-
     header {
         font-weight: 400;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 55px;
-
         .logo {
             img {
                 height: 50px;
             }
         }
-
         .menu {
             font-size: 24px;
-
             ul {
                 margin: 0;
                 padding: 0;
@@ -76,41 +68,34 @@ button:hover {
                 gap: 30px;
             }
         }
-
         .action-btns {
             display: flex;
             gap: 35px;
-
             button {
                 font-size: 28px;
                 border-radius: 10px;
                 padding: 8px 10px;
                 border: 2px solid $primary-color;
             }
-
             .solid {
                 background-color: $primary-color;
                 color: white;
             }
         }
     }
-
     .text-area {
         * {
             text-align: center;
         }
-
         h1 {
             font-size: 50px;
             line-height: 70px;
             margin: 0;
         }
-
         p {
             font-size: 27px;
             padding: 0;
         }
-
         button {
             font-size: 28px;
             border-radius: 10px;
@@ -120,7 +105,6 @@ button:hover {
             color: white;
         }
     }
-
     .brand-logos {
         background-color: white;
         @include radius(30px);
@@ -128,13 +112,12 @@ button:hover {
         justify-content: space-between;
         align-items: center;
         padding: 20px 30px;
-        margin: 40px;
-
+        max-width: 1000px;
+        margin: 40px auto;
         h1 {
             font-size: 27px;
         }
-
-        > div {
+        >div {
             img {
                 width: 200px;
                 &:first-child {
@@ -156,10 +139,8 @@ button:hover {
             }
         }
     }
-
     .cards-area {
         display: flex;
-
         .cards {
             margin-top: 20px;
             .message-card {
@@ -181,7 +162,6 @@ button:hover {
                         width: 80px;
                     }
                 }
-
                 .card {
                     width: 280px;
                     padding: 20px;
@@ -192,17 +172,14 @@ button:hover {
                         margin: 0;
                         padding: 0;
                     }
-
                     h3 {
                         font-size: 22px;
                         margin-bottom: 15px;
                     }
-
                     p {
                         line-height: 25px;
                         font-size: 18px;
                     }
-
                     &.arrow {
                         &-right {
                             position: relative;
@@ -225,7 +202,6 @@ button:hover {
             }
         }
     }
-
     .whats-app-messenger {
         h1 {
             gap: 15px;
@@ -240,7 +216,6 @@ button:hover {
                     height: 0;
                 }
             }
-
             .slider {
                 position: absolute;
                 cursor: pointer;
@@ -265,9 +240,8 @@ button:hover {
                     border-radius: 50%;
                 }
             }
-
             input:checked {
-                & + .slider {
+                &+.slider {
                     background-color: #0080f7;
                     &:before {
                         -webkit-transform: translateX(26px);
@@ -276,14 +250,12 @@ button:hover {
                     }
                 }
             }
-
             input:focus {
-                & + .slider {
+                &+.slider {
                     box-shadow: 0 0 1px #25d366;
                 }
             }
         }
-
         .mobile {
             padding: 0 40px;
             .frame {
@@ -293,13 +265,13 @@ button:hover {
             }
         }
     }
-
-    &.dashboard, &.automation, &.tailor {
+    &.dashboard,
+    &.automation,
+    &.tailor {
         .cards {
             flex: 1;
         }
     }
-
     &.dashboard {
         .mobile {
             padding: 0 40px;
