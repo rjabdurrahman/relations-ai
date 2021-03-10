@@ -183,19 +183,18 @@ button:hover {
           align-items: center;
 }
 
-.area .cards-area .cards {
-  margin-top: 20px;
-}
-
 .area .cards-area .cards .message-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.area .cards-area .cards .message-card:last-of-type {
+  margin-bottom: 0;
 }
 
 .area .cards-area .cards .message-card .icon {
@@ -216,7 +215,7 @@ button:hover {
 }
 
 .area .cards-area .cards .message-card .icon img {
-  width: 70px;
+  width: 50px;
 }
 
 .area .cards-area .cards .message-card .card {
@@ -320,7 +319,11 @@ button:hover {
           box-shadow: 0 0 1px #25d366;
 }
 
-.area .whats-app-messenger .card {
+.area .whats-app-messenger .message-card {
+  margin-bottom: 50px;
+}
+
+.area .whats-app-messenger .message-card .card {
   width: 280px;
 }
 
@@ -338,7 +341,11 @@ button:hover {
           flex: 1;
 }
 
-.area.dashboard .card {
+.area.dashboard .message-card {
+  margin-bottom: 35px;
+}
+
+.area.dashboard .message-card .card {
   width: 400px;
 }
 
@@ -347,6 +354,6 @@ button:hover {
 }
 
 .area.dashboard .mobile .frame img {
-  width: 650px;
+  width: 800px;
 }
 /*# sourceMappingURL=style.css.map */

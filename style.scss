@@ -144,12 +144,13 @@ button:hover {
         justify-content: center;
         align-items: center;
         .cards {
-            margin-top: 20px;
             .message-card {
                 display: flex;
-                gap: 20px;
                 align-items: center;
-                margin-bottom: 50px;
+                gap: 20px;
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
                 .icon {
                     height: 100px;
                     width: 100px;
@@ -160,7 +161,7 @@ button:hover {
                     justify-content: center;
                     align-items: center;
                     img {
-                        width: 70px;
+                        width: 50px;
                     }
                 }
                 .card {
@@ -257,8 +258,11 @@ button:hover {
                 }
             }
         }
-        .card {
-            width: 280px;
+        .message-card {
+            margin-bottom: 50px;
+            .card {
+                width: 280px;
+            }
         }
         .mobile {
             padding: 20px 40px 0;
@@ -277,14 +281,17 @@ button:hover {
         }
     }
     &.dashboard {
-        .card {
-            width: 400px;
+        .message-card {
+            margin-bottom: 35px;
+            .card {
+                width: 400px;
+            }
         }
         .mobile {
             padding: 0 40px;
             .frame {
                 img {
-                    width: 650px;
+                    width: 800px;
                 }
             }
         }
