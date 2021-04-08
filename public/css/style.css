@@ -114,7 +114,6 @@ button:hover {
 
 button:focus {
     outline: none;
-    border: ;
 }
 
 .uppercase {
@@ -1678,7 +1677,6 @@ input.submit-btn:focus {
     top: 18px;
     left: -51px;
 }
-}
 
 
 .dashboard-area .responsive-card-area .owl-prev {
@@ -1811,25 +1809,13 @@ input.submit-btn:focus {
 
 /* email modal */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #email-modal {
     border-radius: 60px;
-    position: relative;
-    margin-top: -212px;
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    /* left: 50%; */
+    transform: translateY(-50%);
     display: none;
 }
 
@@ -1852,7 +1838,7 @@ span.email-close-btn {
 }
 
 .email-modal-content {
-    background: #4f14a5;
+    background: #0D6AAF;
     border-radius: 10px;
     padding: 20px 200px 60px 50px;
     width: 70%;

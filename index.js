@@ -22,5 +22,9 @@ app.get('/pricing', (req, res) => {
     res.render('pricing');
 });
 
-const PORT = process.env.port || 3000;
+app.get('/thanks', (req, res) => {
+    res.render('thanks');
+});
+
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
