@@ -1,4 +1,75 @@
 
+
+
+//modal items
+
+const modal = document.getElementById("email-modal");
+const openBtn = document.querySelector(".subscribe-btn")
+const closeBtn = document.querySelector(".email-close-btn");
+const subsBtn= document.querySelector(".subs-btn");
+//Click Events
+
+openBtn.addEventListener("click", function () {
+    modal.style.display = "block";
+})
+
+
+closeBtn.addEventListener("click", function () {
+    modal.style.display = "none";
+});
+
+
+openBtn.addEventListener("click", function () {
+    subsBtn.style.display = "none";
+})
+
+
+closeBtn.addEventListener("click", function () {
+    subsBtn.style.display = "block";
+});
+
+
+
+
+//modal items
+
+const Tmodal = document.getElementById("thankyou-modal");
+const TopenBtn = document.querySelector(".modal-btn")
+const TcloseBtn = document.querySelector(".thankyou-close-btn");
+const TsubsBtn= document.querySelector(".thank-btn");
+
+
+//Click Events
+
+TopenBtn.addEventListener("click", function () {
+    Tmodal.style.display = "block";
+})
+
+
+TcloseBtn.addEventListener("click", function () {
+    Tmodal.style.display = "none";
+});
+
+
+
+TopenBtn.addEventListener("click", function () {
+    TsubsBtn.style.display = "none";
+})
+
+
+TcloseBtn.addEventListener("click", function () {
+    TsubsBtn.style.display = "block";
+});
+
+
+
+
+
+
+
+
+
+
 /***************************************************
 
 ==================== JS INDEX ======================

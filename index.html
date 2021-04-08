@@ -1,6 +1,6 @@
-
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
- 
+
 
     <!--  scroll up area start -->
     <div class="scroll-up" id="scroll" style="display: none;">
@@ -62,10 +62,10 @@
                         <li>
                             <a href="#">Blog</a>
                         </li>
-                        
+
                         <a href="#" class="h-btn h-btn-svg text-white bg-blue mb-10 responsive-btn">Free Trial</a>
                         <a href="#" class="h-btn h-btn-svg text-white bg-blue responsive-btn mt--3">Signup</a>
-                        
+
                     </ul>
 
                     <!--links end-->
@@ -83,7 +83,7 @@
                 <span class="bar close-btn"></span>
             </div>
 
-           
+
             <!-- nav end-->
         </header>
 
@@ -148,10 +148,10 @@
                 <div class="w-m-tab">
                     <ul class="nav" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"  aria-controls="home" aria-selected="true">Messenger </a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" aria-controls="home" aria-selected="true">Messenger </a>
                         </li>
                         <li class="nav-item">
-                            <a class="red-link nav-link" id="profile-tab" data-toggle="tab" href="#profile"  aria-controls="profile" aria-selected="false">Whatsapp</a>
+                            <a class="red-link nav-link" id="profile-tab" data-toggle="tab" href="#profile" aria-controls="profile" aria-selected="false">Whatsapp</a>
                         </li>
 
                     </ul>
@@ -164,7 +164,7 @@
 
             <!-- resposnive card-->
 
-           
+
             <div class="responsive-card-area whatsapp-messenger-carousel p-relative">
                 <div class="row">
                     <div class="col-md-6 col-sm-8 offset-sm-2 offset-md-3 offset-xl-0 offset-lg-0">
@@ -761,7 +761,11 @@
 
     <!--=============================================== PROCESS AREA  START ====================================================-->
 
-    <div class="first-section process-area bg-whatsapp pt-50">
+    <div class="first-section process-area bg-whatsapp pt-50" id="process-area">
+
+
+
+
         <div class="container">
             <div class="row">
                 <div class=" col-xl-6 col-lg-8 col-md-8 offset-md-2 offset-lg-2 offset-xl-3">
@@ -826,11 +830,23 @@
             </div>
 
             <div class="row">
-                <div class="col-12 text-center">
-                    <a href="#" class="h-btn h-btn-svg text-white bg-blue mt-40">Get Started <i class="fas fa-arrow-right"></i></a>
+                <div class="col-12 text-center thank-btn">
 
+                    <button class="modal-btn h-btn h-btn-svg bg-blue  mt-40"><a href="#" class=" text-white ">Get Started <i class="fas fa-arrow-right"></i></a> </button>
                 </div>
             </div>
+
+            <!-- thnak you modal -->
+            <div class="thankyou-modal" id="thankyou-modal">
+                <div class="thankyou-modal-content bg-small-blue">
+                    <span class="thankyou-close-btn">&times;</span>
+                    <h2>Thank You</h2>
+                    <p>Please check inbox for your Free E Book & 20% Discount code.
+                    </p>
+                </div>
+            </div>
+            <!-- Thank you modal end -->
+
 
         </div>
     </div>
@@ -864,7 +880,7 @@
 
     <!--=============================================== SUBSCRIBE AREA START ====================================================-->
 
-    <div class="first-section bg-small-blue subscribe-area pt-50">
+    <div class="first-section bg-small-blue subscribe-area pt-50" id="subscribe-area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 ">
@@ -874,7 +890,22 @@
                         <div class="subs-form">
                             <input type="text" class="submit-btn" placeholder="E-Mail address"> <br>
                         </div>
-                        <a href="#" class="h-btn h-btn-svg text-white orange-bg  subs-btn">Subscribe <i class="fas fa-arrow-right"></i></a>
+                        <button class="subscribe-btn h-btn h-btn-svg  orange-bg  subs-btn"> <a href="#" class="text-white">Subscribe <i class="fas fa-arrow-right"></i></a>
+                        </button>
+                        <!-- subscribe modal start -->
+                        <div class="email-modal" id="email-modal">
+                            <div class="email-modal-content">
+                                <span class="email-close-btn">&times;</span>
+                                <a href="#" class="learn-how">Learn How</a>
+                                <p class="email-modal-title">6,000 Leads were generated with Messenger!</p>
+
+                                <p class="email-modal-text">Also, let us send you a <a href="#"> 20% Discount</a> coupon on our annual plans. </p>
+                                <div class="subs-form">
+                                    <input type="text" class="submit-btn" placeholder="E-Mail address"> <br>
+                                </div>
+                                <a href="#" class="h-btn h-btn-svg text-white orange-bg  subs-btn">Get Free E-Book & Coupon</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -889,6 +920,9 @@
     <!--=============================================== FOOTER AREA START ====================================================-->
 
     <footer>
+
+
+
         <div class="footer-area first-section bg-whatsapp pt-50">
             <div class="container">
                 <div class="footer-top">
@@ -956,6 +990,7 @@
                                     <a href="#" class="h-btn  h-btn-svg text-dark-white f-20 bg-blue mt-1 subs-btn"> Get Started <i class="fas fa-arrow-right"></i></a><br>
                                     <a href="#" class="h-btn h-btn-svg text-dark-white f-20 bg-blue mt-3 subs-btn"> View Demo <i class="fas fa-arrow-right"></i></a>
                                 </div>
+
                             </div>
                         </div>
 
