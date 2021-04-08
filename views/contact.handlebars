@@ -1,3 +1,9 @@
+<style>
+    .contact-form {
+        display: flex;
+        justify-content: center;
+    }
+</style>
 <script id="00001955-5wxaf3vgoj">
     (function (au, to, mi, zy) {
         var xhr = new XMLHttpRequest();
@@ -7,6 +13,7 @@
                 zy = to.getElementById("00001955-5wxaf3vgoj");
                 zy.parentNode.insertBefore(mi, zy.nextSibling);
                 mi.innerHTML = this.responseText;
+                $('form#automizy-form-vLXKYftjGsOMmaRYrhH62QVsKEI').parent().addClass('contact-form first-section');
                 var scripts = Array.prototype.slice.call(mi.getElementsByTagName("script"));
                 for (var i = 0; i < scripts.length; i++) {
                     if (scripts[i].src != "") {
