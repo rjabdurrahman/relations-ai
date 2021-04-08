@@ -8,14 +8,15 @@
 
 /* laptop devices 1200 - 1600 */
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
-    
-.dashboard-area .cards {
-    margin-top: -27px;
-}
-  .dashboard-area  .section-title {
-    margin-bottom: 70px;
-}  
-    
+
+    .dashboard-area .cards {
+        margin-top: -27px;
+    }
+
+    .dashboard-area .section-title {
+        margin-bottom: 70px;
+    }
+
     .dashboard-area .wm-mobile.mobile-2 img {
         width: 547px;
         height: 100%;
@@ -68,7 +69,7 @@
         width: 280px !important;
     }
 
-  /*  .dashboard-area .cards {
+    /*  .dashboard-area .cards {
         margin-top: 0px;
     }
 */
@@ -121,21 +122,21 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1230px) {
-    
+
     .automation-area .f-card h3 {
-    font-size: 21px;
-}
-    
- .automation-area .width-350 {
-    width: 330px;
-}   
-    
-  .tailor-area .width-340 {
-    width: 310px;
-}  
-    
-    
-    
+        font-size: 21px;
+    }
+
+    .automation-area .width-350 {
+        width: 330px;
+    }
+
+    .tailor-area .width-340 {
+        width: 310px;
+    }
+
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -493,10 +494,10 @@
         padding: 0 !important;
         padding-top: 20px !important;
     }
-    
-   .m-top-responsive{
-    margin-top: 80px!important;
-}   
+
+    .m-top-responsive {
+        margin-top: 80px !important;
+    }
 
 
 }
@@ -566,23 +567,26 @@
         display: none;
     }
 
- .first-section .slider-area h1 {
-	font-size: 32px;
-	line-height: 45px;
-}
+    .first-section .slider-area h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
 
-   .first-section .slider-area h1 {
-    font-size: 31px;
-    line-height: 52px;
-}  
+    .first-section .slider-area h1 {
+        font-size: 31px;
+        line-height: 52px;
+    }
+
     .slider-area p {
-	font-size: 23px;
-	line-height: 32px;
-}
-.wm-mobile img {
-	width: 100%;
-	height: 100%;
-}
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    .wm-mobile img {
+        width: 100%;
+        height: 100%;
+    }
+
     /*brand*/
     .brand-area {
         position: relative;
@@ -610,7 +614,7 @@
         font-size: 23px;
     }
 
- 
+
     /*process area*/
 
     .footer-widget {
@@ -811,23 +815,23 @@
     #myTab .nav-item a {
         font-size: 30px;
     }
-    
+
     .links li a {
-    font-size: 20px;
-}
-    
- .links .responsive-btn {
-    padding: 5px 22px;
-    font-size: 19px;
-}   
+        font-size: 20px;
+    }
+
+    .links .responsive-btn {
+        padding: 5px 22px;
+        font-size: 19px;
+    }
 
 
-  .m-top-responsive{
-    margin-top: 80px!important;
-}
+    .m-top-responsive {
+        margin-top: 80px !important;
+    }
 
-    
-    
+
+
 }
 
 
@@ -841,12 +845,12 @@
     .section-title h2 {
         display: none;
     }
-    
-.first-section .slider-area h1 {
-	font-size: 31px;
-	line-height: 40px;
-}
-    
+
+    .first-section .slider-area h1 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+
     #myTab {
         padding: 15px 15px 15px 20px;
     }
@@ -968,10 +972,10 @@
         font-size: 22px;
     }
 
-   .slider-area p {
-	font-size: 17px;
-	line-height: 21px!important;
-}
+    .slider-area p {
+        font-size: 17px;
+        line-height: 21px !important;
+    }
 
     .first-section {
         border-radius: 20px;
@@ -1002,10 +1006,10 @@
         height: 491px;
     }
 
-  .section-title {
-	margin-top: 0px;
-	text-align: center;
-}
+    .section-title {
+        margin-top: 0px;
+        text-align: center;
+    }
 
     .section-title h1 {
         font-size: 30px;
@@ -1069,23 +1073,24 @@
         text-align: center;
     }
 
-   .tailor-area .tweet-card p {
-	font-size: 17px;
-	text-align: center;
-}
+    .tailor-area .tweet-card p {
+        font-size: 17px;
+        text-align: center;
+    }
 
     .tailor-area .h-btn.text-white.bg-blue {
         margin-bottom: 50px;
     }
 
- .tailor-carousel .owl-prev {
-	top: 42%;
-	left: 5px;
-}
-   .tailor-carousel .owl-next {
-	right: 5px;
-	top: 42% !important;
-}
+    .tailor-carousel .owl-prev {
+        top: 42%;
+        left: 5px;
+    }
+
+    .tailor-carousel .owl-next {
+        right: 5px;
+        top: 42% !important;
+    }
 
     .tailor-area .owl-prev i {
         font-size: 55px;
@@ -1192,10 +1197,10 @@
         margin-bottom: 50px;
     }
 
-   .dashboard-area .responsive-card::after {
-    top: 99px !important;
-    right: 40%;
-}
+    .dashboard-area .responsive-card::after {
+        top: 99px !important;
+        right: 40%;
+    }
 
     .sticky .navbar-menu {
         margin-left: -68px;
@@ -1274,39 +1279,30 @@
         padding: 15px 12px;
     }
 
-   .first-section.bg-small-blue.subscribe-area.pt-50 {
-    padding-top: 0px!important;
-}
-    
-.first-section.blog-area.bg-small-white.pt-50 {
-    padding-top: 0px!important;
-}
-    
-    
-    
+    .first-section.bg-small-blue.subscribe-area.pt-50 {
+        padding-top: 0px !important;
+    }
 
-.first-section.tailor-area.bg-small-white.pt-50 .row.mt-50 {
-	margin-top: 0px;
-}
-.first-section.process-area.bg-whatsapp.pt-50 .row.mt-50 {
-	margin-top: 0px;
-}   
-    
- .first-section.automation-area.bg-whatsapp.pt-50 .row.mt-50 {
-	margin-top: 0px;
-}   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    .first-section.blog-area.bg-small-white.pt-50 {
+        padding-top: 0px !important;
+    }
+
+
+
+    .first-section.tailor-area.bg-small-white.pt-50 .row.mt-50 {
+        margin-top: 0px;
+    }
+
+    .first-section.process-area.bg-whatsapp.pt-50 .row.mt-50 {
+        margin-top: 0px;
+    }
+
+    .first-section.automation-area.bg-whatsapp.pt-50 .row.mt-50 {
+        margin-top: 0px;
+    }
+
+
+
 }
 
 
@@ -1362,13 +1358,13 @@
         margin: 0 auto;
     }
 
-   /* .links {
+    /* .links {
         max-width: 265px;
     }*/
-    
+
     .links {
-	max-width: 253px;
-}
+        max-width: 253px;
+    }
 
     #myTab li {
         text-align: center;
@@ -1376,14 +1372,15 @@
     }
 
 
-   /* .tweet-card.responsive-tailor {
+    /* .tweet-card.responsive-tailor {
         margin: 0 18px;
         margin-bottom: 18px !important;
     }*/
-.tweet-card.responsive-tailor {
-	margin: 0 18px;
-	margin-bottom: 29px !important;
-} 
+    .tweet-card.responsive-tailor {
+        margin: 0 18px;
+        margin-bottom: 29px !important;
+    }
+
     .first-section.tailor-area.bg-small-white.pt-50 .tweet-thumb {
         width: 75px;
         height: 75px;
@@ -1400,64 +1397,65 @@
     }
 
     .tailor-carousel .owl-prev {
-	top: 302px;
-	left: -17px;
-}
+        top: 302px;
+        left: -17px;
+    }
 
-   .tailor-carousel .owl-next {
-	right: -17px;
-	top: 302px !important;
-}
+    .tailor-carousel .owl-next {
+        right: -17px;
+        top: 302px !important;
+    }
 
-  /*  .dashboard-area .wm-mobile.mobile-2 img {
+    /*  .dashboard-area .wm-mobile.mobile-2 img {
         height: 300px !important;
     }*/
 
-    
-    
-/*.tweet-card .f-card.arrow-left::after {
+
+
+    /*.tweet-card .f-card.arrow-left::after {
 	top: -56px;
 	-webkit-transform: rotate(89deg);
 	transform: rotate(89deg);
 	left: 147px;
 }*/
 
-.tweet-card .f-card.arrow-left::after {
-	top: -56px;
-	-webkit-transform: rotate(89deg);
-	transform: rotate(89deg);
-	left: 94px;
-}
-    
-.cards .tweet-card .f-card {
-	margin: 0 auto;
-	margin-top: 60px;
-}
+    .tweet-card .f-card.arrow-left::after {
+        top: -56px;
+        -webkit-transform: rotate(89deg);
+        transform: rotate(89deg);
+        left: 94px;
+    }
+
+    .cards .tweet-card .f-card {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
 
 
-.automation-area .tweet-thumb {
-	margin-top: 0px !important;
-}
+    .automation-area .tweet-thumb {
+        margin-top: 0px !important;
+    }
 
- 
-/*.automation-area .tweet-card .f-card.arrow-left.width-350 {
+
+    /*.automation-area .tweet-card .f-card.arrow-left.width-350 {
 	width: 100%!important;
 }*/
-  .automation-area .tweet-card .f-card.arrow-left.width-350 {
-	width: 250px !important;
-}  
-    
-  .cards .tweet-card .f-card {
-	padding: 16px 20px;
-}
-    
- 
-.f-card h3 {
-	font-size: 18px;
-	line-height: 25px;
-}
-.first-section.tailor-area.bg-small-white.pt-50 .row.mt-50 {
-	margin-top: -57px;
-}
-    
+    .automation-area .tweet-card .f-card.arrow-left.width-350 {
+        width: 250px !important;
+    }
+
+    .cards .tweet-card .f-card {
+        padding: 16px 20px;
+    }
+
+
+    .f-card h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .first-section.tailor-area.bg-small-white.pt-50 .row.mt-50 {
+        margin-top: -57px;
+    }
+
 }
