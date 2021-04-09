@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" ng-app="myApp">
 
 <head>
     <meta charset="utf-8">
@@ -18,14 +18,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/angular.min.js"></script>
 </head>
 
-<body>
+<body ng-controller="myCtrl">
     {{> header}}
     {{> modals}}
     {{{body}}}
     {{> footer}}
     <!-- All JS here -->
+    <script src="js/index.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
