@@ -58,7 +58,7 @@
     <div class="whatsapp-messenger-area">
         <div class="section-title text-center">
             <h2> <span> Messenger</span>
-                <label class="switch"> <input type="checkbox" checked="">
+                <label class="switch"> <input type="checkbox" ng-model="videoMode" checked>
                     <span class="slider"></span>
                 </label>
                 <span>Whatsapp</span>
@@ -180,7 +180,7 @@
 
             <div class="wm-mobile">
                 <img src="assets/img/Elements/27.png" alt="mobile">
-                <img class="video" src="assets/videos/{[{videoMode}]}{[{video}]}.webp">
+                <img class="video" src="assets/videos/{[{videoPrefix()}]}{[{video}]}.webp">
             </div>
 
 

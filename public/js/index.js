@@ -4,7 +4,9 @@ app.config(function ($interpolateProvider) {
     $interpolateProvider.endSymbol('}]}');
 });
 app.controller('myCtrl', function ($scope) {
-    $scope.videoMode = 'messenger_';
+    $scope.videoMode = true;
     $scope.video = 'go_personal';
-    console.log($scope.video)
+    $scope.videoPrefix = function () {
+        return $scope.videoMode ? 'messenger_' : 'whatsapp_';
+    }
 });
