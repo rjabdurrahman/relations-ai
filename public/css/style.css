@@ -5,7 +5,7 @@
 
 ***/
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap");
 
 /*
 	font-family: 'Roboto', sans-serif;
@@ -137,7 +137,6 @@ h6 {
     line-height: 1;
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-
 }
 
 h1 {
@@ -184,11 +183,9 @@ p {
     line-height: 1.75em;
 }
 
-
 /*--
     - Input Placeholder
 -----------------------------------------*/
-
 
 /*--
     - Common Classes
@@ -233,7 +230,7 @@ p {
 }
 
 .bg-small-white {
-    background-color: #F1F1F1 !important;
+    background-color: #f1f1f1 !important;
 }
 
 .bg-blue {
@@ -253,13 +250,12 @@ p {
 }
 
 .bg-whatsapp {
-    background-color: #F0F7FC !important;
+    background-color: #f0f7fc !important;
 }
 
 .orange-bg {
     background-color: #ff7607;
 }
-
 
 /*--
     - color
@@ -268,7 +264,6 @@ p {
 .mb-5 {
     margin-bottom: 5px !important;
 }
-
 
 .mt-10 {
     margin-top: 10px;
@@ -279,7 +274,7 @@ p {
 }
 
 .mt-20 {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .mb-25 {
@@ -341,8 +336,6 @@ p {
 .ml-35 {
     margin-left: 35px;
 }
-
-
 
 .width-35 {
     width: 35px !important;
@@ -412,7 +405,6 @@ p {
     max-width: 1200px !important;
 }
 
-
 .font-weight-4 {
     font-weight: 400;
 }
@@ -432,7 +424,6 @@ p {
 .pr-50 {
     padding-right: 50px !important;
 }
-
 
 /* scroll to top */
 
@@ -459,8 +450,8 @@ p {
     font-size: 26px;
     cursor: pointer !important;
     z-index: 99;
-    -webkit-transition: all ease-in-out .2s;
-    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
 }
 
 /*header sticky*/
@@ -490,8 +481,8 @@ p {
     -moz-animation-delay: 1s;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
-    -webkit-animation-duration: .7s;
-    -moz-animation-duration: .7s;
+    -webkit-animation-duration: 0.7s;
+    -moz-animation-duration: 0.7s;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -webkit-animation-timing-function: ease-out;
@@ -501,7 +492,6 @@ p {
     box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
     padding: 0px 95px;
 }
-
 
 /*button*/
 
@@ -519,15 +509,14 @@ p {
     white-space: nowrap;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .l-btn:hover {
     color: #fff;
     background: #0d6aaf;
 }
-
 
 .subs-btn {
     padding: 9px 20px !important;
@@ -540,7 +529,7 @@ p {
 
 .h-btn::before,
 .h-btn::after {
-    content: '';
+    content: "";
     position: absolute;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -570,8 +559,8 @@ p {
 }
 
 .h-btn-svg:hover::after {
-    -webkit-transform: scale(1, .1);
-    transform: scale(1, .1);
+    -webkit-transform: scale(1, 0.1);
+    transform: scale(1, 0.1);
     opacity: 0;
 }
 
@@ -662,7 +651,6 @@ Navbar
     padding: 0;
 }
 
-
 .links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -673,10 +661,9 @@ Navbar
 .links a {
     padding: 0;
     margin: 0 0 0 3rem;
-    -webkit-transition: .3s;
-    transition: .3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
-
 
 .links li a:hover {
     padding: 0;
@@ -691,12 +678,11 @@ Navbar
 /*responsive menu start*/
 
 @media (max-width: 992px) {
-
     .menu-trigger .bar {
         width: 25px;
         height: 3px;
-        -webkit-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         margin: 5px auto;
         background: #545454;
         display: block;
@@ -757,7 +743,7 @@ Navbar
         z-index: 1000;
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
-        transition: all .4s ease-out;
+        transition: all 0.4s ease-out;
         display: block;
     }
 
@@ -784,11 +770,9 @@ Navbar
         padding: 40px 29px;
     }
 
-
     body.menu-is-active .main-overlay {
         display: block;
     }
-
 
     body.menu-is-active .bar {
         background-color: #fff;
@@ -807,9 +791,6 @@ Navbar
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
-
-
-
 
     /*  
     body.menu-is-active .menu-trigger {
@@ -872,13 +853,7 @@ Navbar
         border-radius: 30px;
         font-size: 22px;
     }
-
-
-
-
 }
-
-
 
 .navbar-menu {
     color: #fff;
@@ -893,7 +868,6 @@ Navbar
     top: 0;
 }
 
-
 .header-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -902,11 +876,9 @@ Navbar
     font-family: Roboto;
 }
 
-
 /*===================================================================================*/
 /*  03. SLIDER CSS START
 /*===================================================================================*/
-
 
 .slider-area h1 {
     font-size: 50px;
@@ -930,8 +902,6 @@ Navbar
 /*===================================================================================*/
 /*  04. BRAND AREA CSS START
 /*===================================================================================*/
-
-
 
 .brand-area {
     background-color: #fff;
@@ -978,27 +948,19 @@ Navbar
     display: none;
 }
 
-
 .b-section .brand-area > div:hover img:nth-child(2) {
     display: none;
 }
 
 .b-section .brand-area > div:hover img:first-child {
     display: block;
-    -webkit-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
-
-
 
 .footer-area .first-section .brand-area > div a img:first-child {
     display: block !important;
 }
-
-
-
-
-
 
 /*===================================================================================*/
 /*  05. WHATSAPP MESSSENGER AREA CSS START
@@ -1037,10 +999,6 @@ Navbar
     justify-content: center;
 }
 
-
-
-
-
 .section-title .switch {
     position: relative;
     display: inline-block;
@@ -1058,8 +1016,8 @@ Navbar
     right: 0;
     border-radius: 35px;
     cursor: pointer;
-    -webkit-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .switch input {
@@ -1073,8 +1031,8 @@ Navbar
     width: 25px;
     height: 25px;
     background-color: #fff;
-    -webkit-transition: al .5s ease;
-    transition: al .5s ease;
+    -webkit-transition: al 0.5s ease;
+    transition: al 0.5s ease;
     border-radius: 50%;
     position: absolute;
     left: 30px;
@@ -1087,15 +1045,11 @@ Navbar
     box-shadow: 0 0 1px #25d366;
 }
 
-
-
 .whatsapp-messenger-area .section-title input:checked + .slider::before {
     -webkit-transform: translateX(26px);
     transform: translateX(26px);
     left: -21px;
 }
-
-
 
 .section-title h2 {
     font-size: 47px;
@@ -1103,7 +1057,18 @@ Navbar
 }
 
 .wm-mobile img {
-    height: 600px;
+    width: 280px;
+    height: 568px;
+}
+
+.wm-mobile img.video {
+    position: absolute;
+    left: 46px;
+    top: 45px;
+    /* border: 1px solid red; */
+    width: 270px;
+    height: auto;
+    border-radius: 28px;
 }
 
 .card-area {
@@ -1154,8 +1119,8 @@ Navbar
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     /*  -webkit-filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));
     filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));*/
 }
@@ -1165,7 +1130,6 @@ Navbar
     /* filter: drop-shadow(0px 40px 15px rgba(113, 105, 119, 0.3)); */
     -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-
 }
 
 .dashboard-area .tweet-thumb {
@@ -1189,13 +1153,11 @@ Navbar
 .tailor-area .tweet-thumb {
     -webkit-filter: drop-shadow(0px 40px 15px rgba(123, 109, 134, 0.6));
     filter: drop-shadow(0px 40px 15px rgba(123, 109, 134, 0.4));
-
 }
 
 .dashboard-area .tweet-thumb {
     height: 75px;
     width: 75px;
-
 }
 
 .cards .tweet-card .f-card {
@@ -1261,18 +1223,13 @@ Navbar
 }
 
 .wm-mobile {
+    position: relative;
     padding: 20px 40px 0;
 }
-
-
 
 /*===================================================================================*/
 /*  06. DASHBOARD CSS START
 /*===================================================================================*/
-
-.first-section.dashboard-area .wm-mobile {
-    padding: 20px 40px;
-}
 
 .dashboard-area .cards .tweet-card .f-card {
     padding: 10px 18px !important;
@@ -1291,9 +1248,6 @@ Navbar
 .dashboard-area .cards {
     margin-top: 61px;
 }
-
-
-
 
 /*===================================================================================*/
 /*  07. AUTOMAITON CSS START
@@ -1341,9 +1295,6 @@ Navbar
     width: 80px;
     height: 80px;
 }
-
-
-
 
 .tweet-card.process-card {
     display: block;
@@ -1396,11 +1347,9 @@ Navbar
     text-align: left;
 }
 
-
 /*===================================================================================*/
 /*  10. BLOG CSS START
 /*===================================================================================*/
-
 
 .blog-content {
     padding: 40px;
@@ -1421,7 +1370,6 @@ Navbar
 /*===================================================================================*/
 /*  11. SUBSCRIBE CSS START
 /*===================================================================================*/
-
 
 .subscribe-content h2 {
     color: #fefefe;
@@ -1467,7 +1415,7 @@ input.submit-btn:focus {
     font-family: "Roboto", sans-serif;
     opacity: 1;
     font-weight: 300;
-    padding-top: 5px
+    padding-top: 5px;
 }
 
 .subs-form .submit-btn::-webkit-input-placeholder {
@@ -1484,7 +1432,6 @@ input.submit-btn:focus {
     word-wrap: break-word;
 }
 
-
 .subs-form .submit-btn::placeholder {
     color: #545454;
     font-size: 28px;
@@ -1498,8 +1445,6 @@ input.submit-btn:focus {
 .subscribe-content {
     padding: 35px 0;
 }
-
-
 
 /*===================================================================================*/
 /*  12. FOOTER CSS START
@@ -1539,7 +1484,6 @@ input.submit-btn:focus {
     font-size: 20px;
 }
 
-
 .f-content ul li a {
     color: #737373;
     font-size: 20px;
@@ -1550,19 +1494,16 @@ input.submit-btn:focus {
 
 .f-content ul li a:hover {
     color: #000000;
-
 }
 
 .social-effect a img {
-    transition: all .2s ease;
+    transition: all 0.2s ease;
 }
 
 .social-effect a img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
-
 
 .copyright-text p {
     color: #737373;
@@ -1573,8 +1514,6 @@ input.submit-btn:focus {
 .copyright-text p:hover {
     color: #000000;
 }
-
-
 
 /*responsive card */
 
@@ -1622,8 +1561,8 @@ input.submit-btn:focus {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     filter: drop-shadow(0px 30px 20px rgba(42, 129, 238, 0.2));
     -webkit-filter: drop-shadow(0px 30px 20px rgba(42, 129, 238, 0.2));
     -moz-filter: drop-shadow(0px 30px 20px rgba(42, 129, 238, 0.2));
@@ -1643,7 +1582,6 @@ input.submit-btn:focus {
     border-bottom: 30px solid transparent;
 }
 
-
 .responsive-card-thumb {
     margin-right: 20px;
 }
@@ -1662,7 +1600,6 @@ input.submit-btn:focus {
     top: 12%;
 }
 
-
 .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
     position: absolute;
     right: -51px;
@@ -1674,7 +1611,6 @@ input.submit-btn:focus {
     left: -51px;
 }
 
-
 .dashboard-area .responsive-card-area .owl-prev {
     position: absolute;
     top: 18px;
@@ -1684,8 +1620,6 @@ input.submit-btn:focus {
 .first-section.dashboard-area.bg-small-white .owl-next {
     right: 70px;
 }
-
-
 
 /*tailor carousel */
 .tailor-area .width-50 {
@@ -1708,7 +1642,6 @@ input.submit-btn:focus {
     float: left;
     margin-right: 30px;
 }
-
 
 .tailor-area .owl-nav {
     display: block !important;
@@ -1760,7 +1693,7 @@ input.submit-btn:focus {
     background-color: #fff;
     padding: 15px 20px;
     border-radius: 20px;
-    -webkit-box-shadow: 0 15px 25px 0 rgba(0, 11, 40, .14);
+    -webkit-box-shadow: 0 15px 25px 0 rgba(0, 11, 40, 0.14);
     box-shadow: 0 15px 25px 0 rgba(169, 175, 191, 0.14);
 }
 
@@ -1798,7 +1731,7 @@ input.submit-btn:focus {
     position: fixed;
     z-index: 99999;
     top: 50%;
-    left: 50%; 
+    left: 50%;
     transform: translateX(-50%) translateY(-50%);
     display: none;
     background: rgb(13, 106, 175) !important;
@@ -1826,14 +1759,12 @@ span.email-close-btn {
     margin-bottom: 20px;
 }
 
-
 .email-modal-content {
     border-radius: 10px;
     padding: 20px 50px 60px 50px;
     display: block;
     max-width: 750px;
 }
-
 
 .email-modal-content .h-btn {
     outline: none;
@@ -1886,16 +1817,13 @@ span.email-close-btn {
     font-weight: 500;
 }
 
-
 /* thankyou modal */
-
 
 #thankyou-modal {
     position: relative;
     margin-top: -391px;
     display: none;
 }
-
 
 .thankyou-modal-content h2 {
     color: #fefefe;

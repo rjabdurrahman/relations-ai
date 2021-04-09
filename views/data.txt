@@ -1,7 +1,0 @@
-<style>
-    .contact-form {
-        display: flex;
-        justify-content: center;
-    }
-</style>
-//$('form#automizy-form-vLXKYftjGsOMmaRYrhH62QVsKEI').parent().addClass('contact-form first-section');
