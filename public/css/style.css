@@ -1240,9 +1240,22 @@ Navbar
     border-left: 35px solid white !important;
 }
 
-.dashboard-area .wm-mobile.mobile-2 img {
+.dashboard-area .wm-mobile.mobile-2 {
+    position: relative;
+}
+
+.dashboard-area .wm-mobile.mobile-2 img.mobile {
     width: 720px;
-    height: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.dashboard-area .wm-mobile.mobile-2 img.screenshot {
+    transform: translate(13px, 13px);
+    width: 698px;
+    position: absolute;
+    border-radius: 5px;
+    height: 472px;
 }
 
 .dashboard-area .cards {

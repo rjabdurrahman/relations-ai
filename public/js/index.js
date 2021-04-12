@@ -9,4 +9,5 @@ app.controller('myCtrl', function ($scope) {
     $scope.videoPrefix = function () {
         return $scope.videoMode ? 'messenger_' : 'whatsapp_';
     }
+    $scope.dashboardImg = 'analytics.jpg';
 });
