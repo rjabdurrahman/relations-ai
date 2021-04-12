@@ -298,6 +298,11 @@
         padding: 0px 28px;
     }
 
+    /*img screenshot r */
+    .dashboard-area .wm-mobile.mobile-2 img.screenshot {
+    position: relative;
+}
+
 }
 
 
@@ -499,9 +504,20 @@
         margin-top: 80px !important;
     }
 
+/*img screenshot r*/
+    .dashboard-area .wm-mobile.mobile-2 img.mobile {
+        width: 100%;
+        height: 500px;
+        position: absolute;
+    }
+    .dashboard-area .wm-mobile.mobile-2 img.screenshot {
+        position: relative;
+    }
+    .dashboard-area .wm-mobile.mobile-2 img.screenshot {
+        width: calc(100% - 25px);
+    }
 
 }
-
 
 
 /* Small devices 576 - 767 */
@@ -661,7 +677,7 @@
     }
 
     input.submit-btn {
-        padding: 18px 18px 13px 22px;
+        padding: 7px 18px 7px 16px;
     }
 
     .subscribe-content span {
@@ -831,11 +847,49 @@
     }
 
 
+    
 
+/*mobile screenshot img */
+
+.dashboard-area .wm-mobile.mobile-2 img.mobile {
+    height: 350px;
+    width: 100%;
+     position: relative;
+   }
+   
+   img.screenshot {
+     width: calc(100% - 25px);
+    height: 325px;
+   }
+   
+   .dashboard-area .wm-mobile.mobile-2 img.screenshot {
+    transform: translate(13px, 13px);
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+   }
+   
+   .wm-mobile.mobile-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+   }
+   
+   img.screenshot {
+    width: calc(100% - 25px)!important;
+    height: 325px!important;
+   }
+   
+   .wm-mobile.mobile-2 {
+   position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+   }
+   
 }
-
-
-
 
 
 
@@ -1002,7 +1056,7 @@
 
     .wm-mobile img {
         width: 300px;
-        height: 491px;
+        height: 100%;
     }
 
     .section-title {
@@ -1302,11 +1356,57 @@
 
 
 
+/*mobile screenshot img */
+
+.dashboard-area .wm-mobile.mobile-2 img.mobile {
+ height: 350px;
+ width: 100%;
+  position: relative;
+}
+
+img.screenshot {
+  width: calc(100% - 25px);
+ height: 325px;
+}
+
+.dashboard-area .wm-mobile.mobile-2 img.screenshot {
+ transform: translate(13px, 13px);
+ position: absolute;
+ border-radius: 5px;
+ left: 0;
+ right: 0;
+}
+
+.wm-mobile.mobile-2 {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ display: block;
+}
+
+img.screenshot {
+ width: calc(100% - 25px)!important;
+ height: 325px!important;
+}
+
+.wm-mobile.mobile-2 {
+position: relative;
+ width: 100%;
+ height: 100%;
+ display: block;
+}
+
+.wm-mobile img.video {
+    left: 5px;
+    top: 23px;
+    width: calc(100% - 13px);
+
+}
 }
 
 
-@media only screen and (min-width: 0px) and (max-width: 445px) {
 
+@media only screen and (min-width: 0px) and (max-width: 445px) {
     .whatsapp-messenger-area .responsive-card-area .owl-prev {
         top: 37px;
         left: -21px;
@@ -1458,3 +1558,14 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
