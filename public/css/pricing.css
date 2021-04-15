@@ -435,9 +435,9 @@ a:hover {
         margin-top: 3px;
         margin-bottom: 25px;
     }
-
     .price-responsive-item ul li {
         text-align: center;
+        display: block;
     }
 
     .r-price-box ul li {
@@ -503,7 +503,7 @@ a:hover {
 
     /* */
     .r-price-box {
-        margin-top: 214px;
+        margin-top: 214px !important;
         display: block;
     }
 
@@ -528,6 +528,7 @@ a:hover {
         font-size: 25px;
         margin-bottom: 26px;
         color: #474747;
+        display: block;
     }
 
     .price-responsive-item ul li i {
@@ -580,7 +581,7 @@ a:hover {
     }
 
     .r-price-box {
-        margin-top: 234px;
+        margin-top: 234px !important;
         display: block;
     }
 
@@ -601,6 +602,7 @@ a:hover {
         font-size: 17px;
         margin-bottom: 38px;
         color: #474747;
+        display: block;
     }
 
     .price-responsive-item ul li i {
@@ -655,6 +657,7 @@ a:hover {
 
     .price-responsive-item ul li {
         text-align: center;
+        display: block;
     }
 
     .responsive-price-title.first-section.bg-small-white .section-title {
@@ -735,7 +738,7 @@ a:hover {
     }
 
     .price-box.price-3-bg.mt-30 {
-        padding: 14px 3px 0px 3px;
+        padding: 14px 3px 9px 3px;
     }
 
     /* */
@@ -788,7 +791,7 @@ a:hover {
     }
 
     .r-price-box {
-        margin-top: 102px;
+        margin-top: 94px !important;
     }
 
     .r-price-box ul li {
@@ -797,7 +800,7 @@ a:hover {
     }
 
     .price-box {
-        padding: 14px 5px 0px 5px;
+        padding: 14px 5px 9px 5px;
     }
 
     /*price switch tab*/
