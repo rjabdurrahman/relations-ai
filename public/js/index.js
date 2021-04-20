@@ -9,7 +9,7 @@ app.controller('myCtrl', function ($scope) {
     $scope.videoPrefix = function () {
         return $scope.videoMode ? 'messenger_' : 'whatsapp_';
     }
-    $scope.dashboardImg = 'analytics.jpg';
+    $scope.dashboardImg = 'all_in_inbox.png';
     $('.mobile-wa-carousel').on('changed.owl.carousel', function (e) {
         let currentIndex = e.item.index;
         switch(currentIndex) {
@@ -26,9 +26,20 @@ app.controller('myCtrl', function ($scope) {
         }
         $scope.$applyAsync();
     });
-
     $('.dashboard-carousel').on('changed.owl.carousel', function (e) {
-        // console.log("current: ",e.item.index) //same
-        console.log('Fired2');
+        let currentIndex = e.item.index;
+        switch(currentIndex) {
+            case 2: $scope.dashboardImg = 'all_in_inbox.png';
+            break;
+            case 3: $scope.dashboardImg = 'analytics.jpg';
+            break;
+            case 4: $scope.dashboardImg = 'order_management.jpg';
+            break;
+            case 5: $scope.dashboardImg = 'customer_insight.jpg';
+            break;
+            case 6: $scope.dashboardImg = 'all_in_inbox.png';
+            break;
+        }
+        $scope.$applyAsync();
     });
 });
