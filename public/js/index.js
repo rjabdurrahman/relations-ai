@@ -10,4 +10,7 @@ app.controller('myCtrl', function ($scope) {
         return $scope.videoMode ? 'messenger_' : 'whatsapp_';
     }
     $scope.dashboardImg = 'analytics.jpg';
+    $('.carousel-item').on('changed.owl.carousel', function(event) {
+        console.log('Fired');
+    })
 });

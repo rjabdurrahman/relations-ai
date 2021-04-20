@@ -6,7 +6,7 @@
 const modal = document.getElementById("email-modal");
 const openBtn = document.querySelector(".subscribe-btn")
 const closeBtn = document.querySelector(".email-close-btn");
-const subsBtn= document.querySelector(".subs-btn");
+const subsBtn = document.querySelector(".subs-btn");
 //Click Events
 
 openBtn.addEventListener("click", function () {
@@ -36,7 +36,7 @@ closeBtn.addEventListener("click", function () {
 const Tmodal = document.getElementById("thankyou-modal");
 const TopenBtn = document.querySelector(".modal-btn")
 const TcloseBtn = document.querySelector(".thankyou-close-btn");
-const TsubsBtn= document.querySelector(".thank-btn");
+const TsubsBtn = document.querySelector(".thank-btn");
 
 
 //Click Events
@@ -94,7 +94,7 @@ TcloseBtn.addEventListener("click", function () {
 
     // 01. Sticky Js
 
-    
+
     $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
         if (scroll < 245) {
@@ -105,11 +105,11 @@ TcloseBtn.addEventListener("click", function () {
     });
 
 
-     ////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////
 
     // 02.RESPONSIVE MENU  Js
 
-   
+
 
     var body = $('body');
     var menuTrigger = $('.js-menu-trigger');
@@ -118,21 +118,21 @@ TcloseBtn.addEventListener("click", function () {
     menuTrigger.on('click', function () {
         body.toggleClass('menu-is-active');
     });
-    
-  
-   mainOverlay.on('click', function () {
+
+
+    mainOverlay.on('click', function () {
         body.removeClass('menu-is-active');
     });
 
 
-   $('.links li a').on('click', function () {
+    $('.links li a').on('click', function () {
         $('body').removeClass("menu-is-active");
     });
 
-      /* $(".close-btn").on("click", function () {
-        $('body').removeClass("menu-is-active");
-    });
-    */
+    /* $(".close-btn").on("click", function () {
+      $('body').removeClass("menu-is-active");
+  });
+  */
 
 
 
@@ -144,57 +144,57 @@ TcloseBtn.addEventListener("click", function () {
         $(this).css("background-image", "url( " + $(this).attr("data-background") + "  )");
     });
 
-    
-       ////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////
 
     // 03. owlCarousel Js
 
 
     $('.carousel-item').owlCarousel({
-        loop:true,
-        margin:20,
+        loop: true,
+        margin: 20,
         fade: true,
-        autoplay: true ,
-		autoplaySpeed: 1000,
-    	items:1,
-    	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-        nav:true,
-    	dots:false,
-        responsive:{
-            0:{
-                items:1
+        autoplay: true,
+        autoplaySpeed: 1000,
+        items: 1,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
             },
-            767:{
-                items:1
+            767: {
+                items: 1
             },
-            992:{
-                items:1
+            992: {
+                items: 1
             }
         }
     });
-    
-    
- // 04. owlCarousel Js
+
+
+    // 04. owlCarousel Js
 
     $('.tailor-carousel').owlCarousel({
-        loop:true,
-        margin:50,
+        loop: true,
+        margin: 50,
         fade: true,
-  
-		autoplaySpeed: 800,
-    	items:1,
-         nav:true,
-    	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-    	dots:false,
-        responsive:{
-            0:{
-                items:1
+
+        autoplaySpeed: 800,
+        items: 1,
+        nav: true,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
             },
-            767:{
-                items:1
+            767: {
+                items: 1
             },
-            992:{
-                items:1
+            992: {
+                items: 1
             }
         }
     });
