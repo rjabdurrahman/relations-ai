@@ -14,33 +14,33 @@ app.controller('myCtrl', function ($scope) {
     $scope.dashboardImg = 'all_in_inbox.png';
     $('.mobile-wa-carousel').on('changed.owl.carousel', function (e) {
         let currentIndex = e.item.index;
-        switch(currentIndex) {
+        switch (currentIndex) {
             case 2: $scope.video = 'go_personal';
-            break;
+                break;
             case 3: $scope.video = 'super_app';
-            break;
+                break;
             case 4: $scope.video = '11x_sales';
-            break;
+                break;
             case 5: $scope.video = 'highest_open_rate';
-            break;
+                break;
             case 6: $scope.video = 'go_personal';
-            break;
+                break;
         }
         $scope.$applyAsync();
     });
     $('.dashboard-carousel').on('changed.owl.carousel', function (e) {
         let currentIndex = e.item.index;
-        switch(currentIndex) {
+        switch (currentIndex) {
             case 2: $scope.dashboardImg = dashboardImgs[0];
-            break;
+                break;
             case 3: $scope.dashboardImg = dashboardImgs[1];
-            break;
+                break;
             case 4: $scope.dashboardImg = dashboardImgs[2];
-            break;
+                break;
             case 5: $scope.dashboardImg = dashboardImgs[3];
-            break;
+                break;
             case 6: $scope.dashboardImg = dashboardImgs[0];
-            break;
+                break;
         }
         $scope.$applyAsync();
     });
@@ -48,28 +48,28 @@ app.controller('myCtrl', function ($scope) {
     let dashboardTimer = null;
     $scope.dashboardSlider = function () {
         imgIdx = 0;
-        dashboardTimer = setInterval(function() {
-            if(imgIdx > 3) imgIdx = 0;
+        dashboardTimer = setInterval(function () {
+            if (imgIdx > 3) imgIdx = 0;
             $scope.dashboardImg = dashboardImgs[imgIdx++];
             $scope.$applyAsync();
         }, 1500);
     }
     $scope.dashboardSlider();
-    $scope.stopDashboarSliding = function() {
+    $scope.stopDashboarSliding = function () {
         clearInterval(dashboardTimer);
     }
     let msgWpIdx = 0;
     let videoTimer;
     $scope.msgWpSlider = function () {
         msgWpIdx = 0;
-        videoTimer = setInterval(function() {
-            if(msgWpIdx > 3) msgWpIdx = 0;
+        videoTimer = setInterval(function () {
+            if (msgWpIdx > 3) msgWpIdx = 0;
             $scope.video = videos[msgWpIdx++];
             $scope.$applyAsync();
         }, 10000);
     }
     $scope.msgWpSlider();
-    $scope.stopVideoSlide = function() {
+    $scope.stopVideoSlide = function () {
         clearInterval(videoTimer);
     }
 });
