@@ -1,3 +1,4 @@
+let dashboardImgs = ['all_in_inbox.png', 'analytics.jpg', 'order_management.jpg', 'customer_insight.jpg']
 const app = angular.module('myApp', []);
 app.config(function ($interpolateProvider) {
     $interpolateProvider.startSymbol('{[{');
@@ -29,17 +30,30 @@ app.controller('myCtrl', function ($scope) {
     $('.dashboard-carousel').on('changed.owl.carousel', function (e) {
         let currentIndex = e.item.index;
         switch(currentIndex) {
-            case 2: $scope.dashboardImg = 'all_in_inbox.png';
+            case 2: $scope.dashboardImg = dashboardImgs[0];
             break;
-            case 3: $scope.dashboardImg = 'analytics.jpg';
+            case 3: $scope.dashboardImg = dashboardImgs[1];
             break;
-            case 4: $scope.dashboardImg = 'order_management.jpg';
+            case 4: $scope.dashboardImg = dashboardImgs[2];
             break;
-            case 5: $scope.dashboardImg = 'customer_insight.jpg';
+            case 5: $scope.dashboardImg = dashboardImgs[3];
             break;
-            case 6: $scope.dashboardImg = 'all_in_inbox.png';
+            case 6: $scope.dashboardImg = dashboardImgs[0];
             break;
         }
         $scope.$applyAsync();
     });
+    let imgIdx = 0;
+    let dashboardTimer = null;
+    $scope.dashboardSlider = function () {
+        dashboardTimer = setInterval(function() {
+            if(imgIdx > 3) imgIdx = 0;
+            $scope.dashboardImg = dashboardImgs[imgIdx++];
+            $scope.$applyAsync();
+        }, 1500);
+    }
+    $scope.dashboardSlider();
+    $scope.stopDashboarSliding = function() {
+        clearInterval(dashboardTimer);
+    }
 });
