@@ -62,10 +62,10 @@
             
             <div class="w-m-tab">
                 <ul class="nav" id="myTab" role="tablist">
-                    <li class="nav-item">
+                    <li class="nav-item" ng-click="videoMode = true">
                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" aria-controls="home" aria-selected="true">Messenger </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item"  ng-click="videoMode = false">
                         <a class="red-link nav-link" id="profile-tab" data-toggle="tab" href="#profile" aria-controls="profile" aria-selected="false">Whatsapp</a>
                     </li>
 
@@ -166,7 +166,6 @@
             </div>
 
             <!--mobile-->
-
             <div class="wm-mobile">
                 <img src="assets/img/Elements/27.png" alt="mobile">
                 <img class="video" src="assets/videos/{[{videoPrefix()}]}{[{video}]}.webp">
