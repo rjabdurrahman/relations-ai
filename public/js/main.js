@@ -150,7 +150,7 @@ TcloseBtn.addEventListener("click", function () {
     // 03. owlCarousel Js
 
 
-    $('.carousel-item').owlCarousel({
+    $('.mobile-wa-carousel, .dashboard-carousel').owlCarousel({
         loop: true,
         margin: 20,
         fade: true,
