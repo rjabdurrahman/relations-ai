@@ -1,6 +1,3 @@
-
-
-
 //modal items
 
 const modal = document.getElementById("email-modal");

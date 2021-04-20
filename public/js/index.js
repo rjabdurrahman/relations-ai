@@ -1,4 +1,5 @@
 let dashboardImgs = ['all_in_inbox.png', 'analytics.jpg', 'order_management.jpg', 'customer_insight.jpg']
+let videos = ['go_personal', 'super_app', '11x_sales', 'highest_open_rate']
 const app = angular.module('myApp', []);
 app.config(function ($interpolateProvider) {
     $interpolateProvider.startSymbol('{[{');
@@ -46,6 +47,7 @@ app.controller('myCtrl', function ($scope) {
     let imgIdx = 0;
     let dashboardTimer = null;
     $scope.dashboardSlider = function () {
+        imgIdx = 0;
         dashboardTimer = setInterval(function() {
             if(imgIdx > 3) imgIdx = 0;
             $scope.dashboardImg = dashboardImgs[imgIdx++];
@@ -55,5 +57,19 @@ app.controller('myCtrl', function ($scope) {
     $scope.dashboardSlider();
     $scope.stopDashboarSliding = function() {
         clearInterval(dashboardTimer);
+    }
+    let msgWpIdx = 0;
+    let videoTimer;
+    $scope.msgWpSlider = function () {
+        msgWpIdx = 0;
+        videoTimer = setInterval(function() {
+            if(msgWpIdx > 3) msgWpIdx = 0;
+            $scope.video = videos[msgWpIdx++];
+            $scope.$applyAsync();
+        }, 10000);
+    }
+    $scope.msgWpSlider();
+    $scope.stopVideoSlide = function() {
+        clearInterval(videoTimer);
     }
 });
